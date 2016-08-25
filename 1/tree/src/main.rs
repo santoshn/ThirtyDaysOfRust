@@ -73,13 +73,6 @@ fn main() {
     for x in &my_vec {
         my_tree = insert_node(*x, my_tree);
     }
-
-    /*    
-    my_tree = insert_node(1, my_tree);
-    my_tree = insert_node(2, my_tree);
-    my_tree = insert_node(3, my_tree);
-     */
-
     
     println!("Inorder traversal:");
     inorder_traversal(my_tree);
